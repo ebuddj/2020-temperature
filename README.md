@@ -1,8 +1,8 @@
 # 2020-temperature
 
-## Temperature differences compared to the average per country from 1901 to 2016 (EBU)
-
 **Live demo** https://ebuddj.github.io/2020-temperature/
+
+## Temperature differences compared to the average per country from 1901 to 2016 (EBU)
 
 Global warming is the long-term rise in the average temperature of the Earth's climate system. While there have been prehistoric periods of global warming, many observed changes since the mid-20th century have been unprecedented over decades to millennia.
 
