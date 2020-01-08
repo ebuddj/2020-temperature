@@ -73,21 +73,23 @@ class App extends Component {
     return f(value);
   }
   drawMap(data) {
+    //  http://bl.ocks.org/micahstubbs/535e57a3a2954a129c13701fe61c681d
     const margin = {top: 0, right: 0, bottom: 0, left: 0};
+    var map = d3.select('.' + style.app);
     const width = window.innerWidth - margin.left - margin.right;
     const height = window.innerHeight - margin.top - margin.bottom;
     const svg = d3.select('.' + style.map_container)
-      .append('g')
       .append('svg')
-      .attr('class', style.map)
       .attr('height', height)
-      .attr('width', width);
+      .attr('width', width)
+      .append('g')
+      .attr('class', style.map);
 
     // https://observablehq.com/@d3/robinson
     const projection = geoRobinson()
       .rotate([0, 0, 0])
-      .scale(180)
-      .translate([width / 2, height / 2]);
+      .scale((width * 300) / 1650)
+      .translate([width / 2 - (width * 100) / 1650, height / 2 + (width * 50) / 1650]);
 
     const path = d3.geoPath().projection(projection);
     g = svg.append('g');
@@ -102,7 +104,7 @@ class App extends Component {
         .style('stroke', 'white')
         .style('opacity', 0.8)
         .style('stroke-width', 0.3);
-
+    this.setPathColor();
     this.getCurrentYearAverageTemp();
     // Wait 2 seconds before starting the interval.
     setTimeout(() => {
