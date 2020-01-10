@@ -101,6 +101,7 @@ table {
   text-align: center;
 }
 .app___2khK2 .meta_container___3p0xG .range_container___RQeFs {
+  display: none;
   margin: 0 10px;
 }
 .app___2khK2 .meta_container___3p0xG .range_container___RQeFs input[type=range] {
@@ -113,6 +114,7 @@ table {
 }
 .app___2khK2 .meta_container___3p0xG .controls_container___20Jjq {
   cursor: pointer;
+  display: none;
   font-size: 32px;
   font-weight: 600;
   margin-top: 5px;
