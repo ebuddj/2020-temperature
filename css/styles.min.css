@@ -78,7 +78,7 @@ table {
   white-space: nowrap;
 }
 body {
-  overflow: none;
+  overflow: hidden;
 }
 .app___2khK2 .map_container___22zRx {
   display: block;
