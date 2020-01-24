@@ -19,6 +19,9 @@ The color scale goes from -2°C to +2°C. Larger anomalies are scaled to the nea
 * [Coupled Model Intercomparison Project](https://en.wikipedia.org/wiki/Coupled_Model_Intercomparison_Project)
 * [Global warming](https://en.wikipedia.org/wiki/Global_warming)
 
+**Used by**
+* [Euronews/Italy on Youtube](https://www.youtube.com/watch?v=MVAG3oWL6c8)
+
 ## How to use
 
 If you are interested in using the interactive version please contact Teemo Tebest, tebest@ebu.ch
