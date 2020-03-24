@@ -10,14 +10,14 @@ This visualisation shows how the temperatures calculated by the CMIP Phase 5 mod
 
 The color scale goes from -2°C to +2°C. Larger anomalies are scaled to the nearest minimum or maximum on the scale meaning that if the anomality is for example -10°C it is visualised as it was -2°C. This is done so that the big local anomalies won't blur the big picture. The total average seen on the scale and bottom left is the non-weighted avarage from all countries per year.  
 
-**Links**
-* [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002060)
-* [Social Newswire](https://www.evnsocialnewswire.ch/climate/climate-temperature-differences-compared-to-the-average-per-country-from-1901-to-2016-animation/)
-
 **Sources**
 * [Worldbank](https://climateknowledgeportal.worldbank.org/download-data)
 * [Coupled Model Intercomparison Project](https://en.wikipedia.org/wiki/Coupled_Model_Intercomparison_Project)
 * [Global warming](https://en.wikipedia.org/wiki/Global_warming)
+
+**EBU links**
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002060)
+* [Social Newswire](https://www.evnsocialnewswire.ch/climate/climate-temperature-differences-compared-to-the-average-per-country-from-1901-to-2016-animation/)
 
 **Used by**
 * [Euronews/Italy on Youtube](https://www.youtube.com/watch?v=MVAG3oWL6c8)
@@ -30,7 +30,7 @@ This visualization is part of the EBU News Exchange’s Data Journalism project.
 
 ## Rights of usage
 
-The material may be used only by Eurovision active members and sub-licensees.
+The material may be used only by [Eurovision active members and sub-licensees](https://www.ebu.ch/eurovision-news/members-and-sublicensees).
 
 ## How to build and develop
 
