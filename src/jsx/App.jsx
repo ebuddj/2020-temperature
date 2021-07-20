@@ -63,7 +63,7 @@ class App extends Component {
   componentWillUnMount() {
 
   }
-  loadMapData() {
+  loadMapData() {
     d3.json('./data/world_countries.json').then(data => {
       this.drawMap(data)
     });
@@ -109,7 +109,7 @@ class App extends Component {
       this.toggleInterval(yearStart);
     }, 2000);
   }
-  toggleInterval(year) {
+  toggleInterval(year) {
     if (parseInt(year) === yearEnd) {
       year = yearStart
     }
@@ -164,7 +164,7 @@ class App extends Component {
       });
     this.getCurrentYearAverageTemp();
   }
-  getCurrentYearAverageTemp() {
+  getCurrentYearAverageTemp() {
     let temperature = this.state.current_data.reduce((total, current) => total + (current.data.reduce((country_total, country_current) => country_total + country_current.value, 0)) / current.data.length, 0) / this.state.current_data.length;
     this.setState((state, props) => ({
       active_country_temp:temperature,
