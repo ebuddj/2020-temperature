@@ -92,7 +92,7 @@ class App extends Component {
       .attr('width', '400px')
     const line_container = svg.append('g')
       .attr('class', style.line_container)
-      .attr('transform', 'translate(' + (window.innerWidth - 200) + ', 20)');
+      .attr('transform', 'translate(' + (window.innerWidth - 210) + ', 20)');
     line_container.append('text')
       .attr('x', 5)
       .attr('class', style.linegraptext)
