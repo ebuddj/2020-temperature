@@ -265,8 +265,8 @@ class App extends Component {
                   return (<div key={i} className={style.scale_container} style={{backgroundColor:this.value2color(scale), borderBottom:'1px dashed rgba(255, 255, 255, 0.3)'}}><div className={style.scale_text_zero}><div>0°C</div></div></div>);
                 }
                 // Place the initial value.
-                else if (scale < -0.625 && scale > -0.675) {
-                  return (<div key={i} className={style.scale_container} style={{backgroundColor:this.value2color(scale), borderBottom:'1px dashed rgba(255, 255, 255, 0.3)'}}><div className={style.scale_text_1901}><div>-0.6°C</div></div></div>);
+                else if (scale < -0.075 && scale > -0.125) {
+                  return (<div key={i} className={style.scale_container} style={{backgroundColor:this.value2color(scale), borderBottom:'1px dashed rgba(255, 255, 255, 0.3)'}}><div className={style.scale_text_1901}><div>-0.1°C</div></div></div>);
                 }
                 else {
                   return (<div key={i} className={style.scale_container} style={{backgroundColor:this.value2color(scale)}}></div>);
