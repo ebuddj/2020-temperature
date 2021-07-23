@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:600.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700.css);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -77,6 +77,46 @@ table {
 .nowrap___2n1o8 {
   white-space: nowrap;
 }
+.app___2khK2 {
+  overflow: hidden;
+}
+.app___2khK2 .title_container___28dn4 {
+  margin-top: 20px;
+  margin-left: 50px;
+  position: absolute;
+}
+.app___2khK2 .title_container___28dn4 h3 {
+  font-size: 20pt;
+  margin-bottom: 10px;
+}
+.app___2khK2 .title_container___28dn4 .info_container___rDdFc {
+  font-size: 9pt;
+  margin-bottom: 5px;
+}
+.app___2khK2 .title_container___28dn4 .info_container___rDdFc a {
+  color: #000;
+  text-decoration: none;
+}
+.app___2khK2 .title_container___28dn4 .info_container___rDdFc a:hover {
+  text-decoration: underline;
+}
+.app___2khK2 .line_container___30zFu path {
+  stroke-width: 0.5;
+  stroke: rgba(0, 0, 0, 0.5);
+}
+.app___2khK2 .line_container___30zFu path.current_avg_temp_line___21a-V {
+  fill: none;
+  stroke-width: 1.5;
+}
+.app___2khK2 .line_container___30zFu .grid___3zkE4 line {
+  stroke-width: 0.5;
+  stroke: rgba(0, 0, 0, 0.5);
+}
+.app___2khK2 .line_container___30zFu .linegraptext___2C4-R {
+  font-size: 7pt;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .app___2khK2 .map_container___22zRx {
   display: block;
 }
@@ -86,7 +126,7 @@ table {
 }
 .app___2khK2 .meta_container___3p0xG {
   color: #000;
-  font-family: Source Code Pro;
+  font-family: Lato;
   pointer-events: none;
   position: absolute;
   bottom: 10px;
@@ -101,8 +141,8 @@ table {
   text-align: center;
 }
 .app___2khK2 .meta_container___3p0xG .range_container___RQeFs {
-  display: none;
-  margin: 0 10px;
+  max-width: 600px;
+  margin: 10px auto;
 }
 .app___2khK2 .meta_container___3p0xG .range_container___RQeFs input[type=range] {
   box-sizing: border-box;
@@ -114,7 +154,6 @@ table {
 }
 .app___2khK2 .meta_container___3p0xG .controls_container___20Jjq {
   cursor: pointer;
-  display: none;
   font-size: 32px;
   font-weight: 600;
   margin-top: 5px;
@@ -127,7 +166,7 @@ table {
 .app___2khK2 .scales_container___1pYId {
   bottom: 40%;
   color: #fff;
-  font-family: Source Code Pro;
+  font-family: Lato;
   opacity: 1;
   position: absolute;
   right: 10px;
@@ -143,20 +182,20 @@ table {
   width: 60px;
 }
 .app___2khK2 .scales_container___1pYId:before {
-  content: '+2°C';
+  content: '+3°C';
   margin-top: 5px;
   top: 0;
 }
 .app___2khK2 .scales_container___1pYId:after {
   bottom: 0;
-  content: '-2°C';
+  content: '-3°C';
   margin-bottom: 5px;
 }
 .app___2khK2 .scales_container___1pYId .scale_container___3Z0k5 {
   color: #000;
   font-size: 14px;
   font-weight: 600;
-  height: 4px;
+  height: 3px;
   text-align: center;
   width: 100%;
 }
