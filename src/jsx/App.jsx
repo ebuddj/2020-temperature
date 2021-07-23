@@ -34,8 +34,8 @@ while (temperature > scaleMin) {
   scales.push(temperature);
 }
 const margin = {top: 0, right: 0, bottom: 0, left: 0};
-    const width = window.innerWidth - margin.left - margin.right;
-    const height = window.innerHeight - margin.top - margin.bottom;
+const width = window.innerWidth - margin.left - margin.right;
+const height = window.innerHeight - margin.top - margin.bottom;
 const xScale = d3.scaleLinear()
   .range([0, 200])
   .domain([-1, 119]);
@@ -92,7 +92,7 @@ class App extends Component {
       .attr('width', '400px')
     const line_container = svg.append('g')
       .attr('class', style.line_container)
-      .attr('transform', 'translate(' + (window.innerWidth - 250) + ', 20)');
+      .attr('transform', 'translate(' + (window.innerWidth - 200) + ', 20)');
     line_container.append('text')
       .attr('x', 5)
       .attr('class', style.linegraptext)
@@ -101,7 +101,7 @@ class App extends Component {
       .attr('class', style.grid)
       .call(d3.axisLeft(yScale)
         .ticks(1)
-        .tickFormat(i => i + ' °C')
+        .tickFormat(i => i + '°C')
         .tickSizeInner(-200)
         .tickSizeOuter(0)
       );
