@@ -184,10 +184,10 @@ table {
 .app___2khK2 .scales_container___1pYId:before {
   content: '+3°C';
   margin-top: 5px;
-  top: 0;
+  top: -30px;
 }
 .app___2khK2 .scales_container___1pYId:after {
-  bottom: 0;
+  bottom: -30px;
   content: '-3°C';
   margin-bottom: 5px;
 }
@@ -211,12 +211,10 @@ table {
 .app___2khK2 .scales_container___1pYId .scale_container___3Z0k5 .scale_text_zero___20zq_,
 .app___2khK2 .scales_container___1pYId .scale_container___3Z0k5 .scale_text_1901___1gfLu {
   color: #000;
+  display: none;
   font-size: 12px;
   opacity: 0.5;
   position: relative;
   top: -2px;
-}
-.app___2khK2 .scales_container___1pYId .scale_container___3Z0k5 .scale_text_zero___20zq_ {
-  display: none;
 }
 
