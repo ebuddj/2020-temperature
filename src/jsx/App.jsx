@@ -117,7 +117,7 @@ class App extends Component {
     d3.select('.' + style.current_avg_temp_line)
       .attr('class', style.current_avg_temp_line)
       .style('stroke', '#000')
-      .attr('d', line(avg_temps.slice(0, this.state.year - 1901)));
+      .attr('d', line(avg_temps.slice(0, this.state.year - 1900)));
   }
   drawMap(data) {
     this.createLineChart();
