@@ -2,11 +2,11 @@
 
 **Live demo** https://ebuddj.github.io/2020-temperature/
 
-## Temperature differences compared to the average per country from 1901 to 2016 (EBU)
+## Temperature differences compared to the average per country from 1901 to 2020 (EBU)
 
 Global warming is the long-term rise in the average temperature of the Earth's climate system. While there have been prehistoric periods of global warming, many observed changes since the mid-20th century have been unprecedented over decades to millennia.
 
-This visualisation shows how the temperatures calculated by the CMIP Phase 5 model changes over time. Visualisation starts from year 1901 and ends to year 2016. In the animation you can see the difference to the average temperature in that country. The average is calculated per country from years 1981–2010. Data comes from World Bank's Climate Knowledge Portal. Data can be used for non-commercial purposes.
+This visualisation shows how the temperatures calculated by the CMIP Phase 5 model changes over time. Visualisation starts from year 1901 and ends to year 2020. In the animation you can see the difference to the average temperature in that country. The average is calculated per country from years 1951–1980. Data comes from World Bank's Climate Knowledge Portal. Data can be used for non-commercial purposes.
 
 The color scale goes from -3°C to +3°C. Larger anomalies are scaled to the nearest minimum or maximum on the scale meaning that if the anomality is for example -10°C it is visualised as it was -3°C. This is done so that the big local anomalies won't blur the big picture. The total average seen on the scale is the non-weighted avarage from all countries per year.  
 
