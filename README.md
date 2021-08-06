@@ -19,7 +19,8 @@ Missing data for Armenia and Belize.
 * [Global warming](https://en.wikipedia.org/wiki/Global_warming)
 
 **EBU links**
-* [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002060)
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002060), 2020-01-15 
+* [News Exchange](https://news-exchange.ebu.ch/item_detail/2ee6d07895acda9a9b3ca64b2d57a6e2/2021_10034932), 2021-08-06
 * [Social Newswire](https://www.evnsocialnewswire.ch/climate/climate-temperature-differences-compared-to-the-average-per-country-from-1901-to-2016-animation/)
 
 **Used by**
