@@ -20,8 +20,6 @@ Missing data for Armenia and Belize.
 * [Coupled Model Intercomparison Project](https://en.wikipedia.org/wiki/Coupled_Model_Intercomparison_Project)
 * [Global warming](https://en.wikipedia.org/wiki/Global_warming)
 
-
-
 **EBU links**
 * [News Exchange](https://news-exchange.ebu.ch/item_detail/498aee85af812027f34c12eaa56077d5/2020_21002060), 2020-01-15 
 * [News Exchange](https://news-exchange.ebu.ch/item_detail/2ee6d07895acda9a9b3ca64b2d57a6e2/2021_10034932), 2021-08-06
@@ -29,6 +27,12 @@ Missing data for Armenia and Belize.
 
 **Used by**
 * [Euronews/Italy on Youtube](https://www.youtube.com/watch?v=MVAG3oWL6c8)
+* BNT/Bulgaria on BNT 1
+* HRTV/Croatia on HTV1
+* RAI/Italy on Rai 2
+* RTP/Portugal on RTPI
+* RTP/Portugal on RTP 2 PT
+* TVR/Romania on TVR 2
 
 ## How to use
 
